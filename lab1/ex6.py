@@ -4,9 +4,7 @@ cx=x
 ogl=0
 while x!=0:
     ogl=ogl*10+x%10
-    x=x/10
-    print(ogl)
-print(ogl)
+    x=x//10
 if cx==ogl:
     print(cx, "is palindrome")
 else:
