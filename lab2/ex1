@@ -2,15 +2,17 @@ def fibo(n):
     i=2
     a=1
     b=1
-    s=1
-    while i<=n:
+    fibList = []
+    fibList.append(a)
+    fibList.append(b)
+    while i<n:
         c=a+b
-        s=s+b
+        fibList.append(c)  
         a=b
         b=c
         i=i+1
-    return s
-print(fibo(4))
+    return fibList
+print(fibo(5))
 
         
         
