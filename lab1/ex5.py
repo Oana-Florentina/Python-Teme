@@ -17,7 +17,7 @@ def spiral_order(matrix):
         right -= 1
 
         #bottom row
-        if top <= bottom:  # Check to avoid duplicate
+        if top <= bottom: 
             for i in range(right, left - 1, -1):
                 result.append(matrix[bottom][i])
             bottom -= 1
@@ -36,7 +36,9 @@ if __name__ == "__main__":
         ['F', 'I', 'R', 'S'],
         ['N', '_', 'L', 'T'],
         ['O', 'B', 'A', '_'],
+        ['H', 'T', 'Y', 'P'],
         ['H', 'T', 'Y', 'P']
+
     ]
     
     result = spiral_order(matrix)

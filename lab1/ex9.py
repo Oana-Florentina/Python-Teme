@@ -5,7 +5,7 @@
 def most_common_letter(s):
    
     letter_count = {}
-    
+    #s=s.lower()
     for char in s:
         if char.isalpha(): 
             letter_count[char] = letter_count.get(char, 0) + 1#daca nu il gasesc, in adaug

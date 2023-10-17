@@ -17,7 +17,7 @@ def extract_first_number(text):
         return None
 
 
-text1 = "An apple is 45 USD"
+text1 = "An apple is 4x5 USD"
 text2 = "abc123ab5c"
 
 number1 = extract_first_number(text1)
