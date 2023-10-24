@@ -10,6 +10,7 @@ matrix = [
         [1, 1, 1, 1],
         [1, 1, 1, 1],
         [1, 1, 1, 1]
+
     ]
 result_matrix = matrixReplace(matrix, 4)
 
