@@ -14,7 +14,7 @@ def generate_char_lists(x=1, string_list=None, flag=True):
     
     return result_lists
 
-# Example usage:
+
 x = 2
 strings = ["test", "hello", "lab002"]
 flag = True
