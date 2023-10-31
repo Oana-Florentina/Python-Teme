@@ -10,7 +10,7 @@ def recursive_dict_compare(dict1, dict2):
         value2 = dict2[key]
 
         if isinstance(value1, (dict, list, set)) and isinstance(value2, (dict, list, set)):
-            # am lista sau dictionar:
+        #hereee
             if not recursive_compare(value1, value2):
                 return False
         else:
