@@ -11,19 +11,15 @@ def set_operations(*sets):
             set1 = sets[i]
             set2 = sets[j]
 
-            # Union
             key_union = f"{set1} | {set2}"
             result[key_union] = set1 | set2
 
-            # Intersection
             key_intersection = f"{set1} & {set2}"
             result[key_intersection] = set1 & set2
 
-            # Difference (a - b)
             key_diff_ab = f"{set1} - {set2}"
             result[key_diff_ab] = set1 - set2
 
-            # Difference (b - a)
             key_diff_ba = f"{set2} - {set1}"
             result[key_diff_ba] = set2 - set1
 
