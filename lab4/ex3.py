@@ -67,7 +67,8 @@ matrix2.set(0, 0, 7)
 matrix2.set(0, 1, 8)
 matrix2.set(1, 0, 9)
 matrix2.set(1, 1, 10)
-
+print("Second Matrix:")
+print(matrix2)
 
 product = matrix.multiply(matrix2)
 print("Matrix Multiplication Result:")
