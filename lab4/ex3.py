@@ -62,7 +62,7 @@ transformed_matrix = matrix.transpose()
 print("Transposed Matrix:")
 print(transformed_matrix)
 
-matrix2 = Matrix(2, 2)  # Change the dimensions to match the matrix multiplication requirement.
+matrix2 = Matrix(2, 2)
 matrix2.set(0, 0, 7)
 matrix2.set(0, 1, 8)
 matrix2.set(1, 0, 9)
