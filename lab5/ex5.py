@@ -1,3 +1,7 @@
+# Create a class hierarchy for animals, starting with a base class Animal.
+# Then, create subclasses like Mammal, Bird, and Fish.
+# Add properties and methods to represent characteristics unique to each animal group.
+
 class Animal:
     def __init__(self, name, habitat):
         self.name = name

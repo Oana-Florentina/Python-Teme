@@ -1,3 +1,7 @@
+# Design a library catalog system with a base class LibraryItem
+# and subclasses for different types of items like Book, DVD, and Magazine.
+# Include methods to check out, return, and display information about each item.
+
 class LibraryItem:
     def __init__(self, title, author, item_id):
         self.title = title
@@ -61,6 +65,7 @@ class Magazine(LibraryItem):
         print(f"Publisher: {self.publisher}")
         print(f"Issue Number: {self.issue_number}")
         print("")
+
 
 # Example Usage:
 book = Book(title="The Great Gatsby", author="F. Scott Fitzgerald", item_id="B001", genre="Classic")

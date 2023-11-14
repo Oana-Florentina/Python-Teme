@@ -1,3 +1,8 @@
+# Create a base class Vehicle with attributes like make,
+# model, and year, and then create subclasses for specific
+# types of vehicles like Car, Motorcycle, and Truck.
+# Add methods to calculate mileage or towing capacity based on the vehicle type.
+
 class Vehicle:
     def __init__(self, make, model, year):
         self.make = make

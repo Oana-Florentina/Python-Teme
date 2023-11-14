@@ -1,3 +1,8 @@
+# Build an employee hierarchy with a base class Employee.
+# Create subclasses for different types of employees like Manager,
+# Engineer, and Salesperson. Each subclass should have attributes
+# like salary and methods related to their roles.
+
 class Employee:
     def __init__(self, name, employee_id):
         self.name = name
