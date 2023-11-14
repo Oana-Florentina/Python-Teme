@@ -74,6 +74,7 @@ product = matrix.multiply(matrix2)
 print("Matrix Multiplication Result:")
 print(product)
 
+
 matrix.apply(lambda x: x * 2)
 print("Matrix after applying a transformation (doubling each element):")
 print(matrix)
