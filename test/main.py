@@ -5,7 +5,7 @@
 # - a method statistics can be called to get the current counts for the known words and symbols
 # - a method update can be called with a string in order to update the
 # current vocabulary and known symbols
-# - a method to_string can be called to retun a string with all the
+# - a method to_string can be called to return a string with all the
 # known words in the vocab concatenated with spaces
 # - a method compare can be called with another Vocabulary object as
 # a parameter and the words and symbols that apper in both vocabularies will be printed.
